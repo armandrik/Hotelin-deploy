@@ -1,25 +1,28 @@
-import { Route, Routes } from "react-router-dom";
-import Register from "./components/register/Register";
-import HomeLayout from "./components/layout/HomeLayout";
-import Home from "./components/map/Home";
-import Feed from "./components/feed/Feed";
-import Map from "./components/map/Map";
-import Profile from "./components/profile/Profile";
-import NotFound from "./components/notfound/NotFound";
+import { useEffect, useState } from "react";
+import SplashScreen from "./components/splashScreen/SplashScreen";
+import AppRoutes from "./components/routes/AppRoutes";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const alreadyShown = sessionStorage.getItem("splashShown") === "true";
+
+    if (alreadyShown) {
+      setIsLoading(false);
+    } else {
+      setIsLoading(true);
+      const timer = setTimeout(() => {
+        sessionStorage.setItem("splashShown", "true");
+        setIsLoading(false);
+      }, 2500);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   return (
-    <div className="relative w-lg mx-auto h-dvh bg-light dark:bg-dark">
-      <Routes>
-        <Route path="/register" element={<Register />} />
-        <Route path="/" element={<HomeLayout />}>
-          <Route index element={<Home />} />
-          <Route path="feed" element={<Feed />} />
-          <Route path="map" element={<Map />} />
-          <Route path="profile" element={<Profile />} />
-        </Route>
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+    <div className="relative max-w-lg mx-auto h-dvh bg-light dark:bg-dark">
+      {isLoading ? <SplashScreen /> : <AppRoutes />}
     </div>
   );
 }
