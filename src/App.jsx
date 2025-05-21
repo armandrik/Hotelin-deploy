@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative max-w-lg mx-auto h-dvh bg-light dark:bg-dark">
+    <div className="relative max-w-lg mx-auto h-dvh bg-light overflow-y-scroll no-scrollbar dark:bg-dark">
       {isLoading ? <SplashScreen /> : <AppRoutes />}
     </div>
   );

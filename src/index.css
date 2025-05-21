@@ -14,7 +14,7 @@
   --color-h-dark: #fbfbfb;
   --color-p-dark: #8b8b8b;
   --color-nav-icon-dark: #9dccf2;
-  --color-border-dark : #283142;
+  --color-border-dark: #283142;
 
   /* light */
   --color-light: #f7f7f7;
@@ -23,11 +23,22 @@
   --color-h-light: #313131;
   --color-p-light: #85909c;
   --color-nav-icon-light: #1f1f6b;
-  --color-border-light : #D7DEE6;
+  --color-border-light: #d7dee6;
 
   --font-display: "Roboto", "sans-serif";
 }
 
-body{
+body {
   background-color: #e3e3e3;
+}
+
+:root {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
