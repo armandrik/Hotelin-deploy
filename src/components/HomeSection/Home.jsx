@@ -1,4 +1,4 @@
-import {HomeCardHotel} from "src/components";
+import { HomeCardHotel } from "src/components";
 
 export const Home = () => {
   return (
@@ -25,13 +25,9 @@ export const Home = () => {
       <h3 className="text-h-light text-xl font-medium mb-5 dark:text-h-dark">
         You might like
       </h3>
-      <HomeCardHotel />
-      <HomeCardHotel />
-      <HomeCardHotel />
-      <HomeCardHotel />
-      <HomeCardHotel />
-      <HomeCardHotel />
-      <HomeCardHotel />
+      {Array.apply(null, Array(6)).map((item, index) => (
+        <HomeCardHotel key={index} />
+      ))}
     </div>
   );
 };

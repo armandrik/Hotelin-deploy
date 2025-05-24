@@ -1,15 +1,15 @@
 import { useState } from "react";
-import {Login} from "./Login/Login";
-import {Signup} from "./Signup/Signup";
+import { Login } from "./Login/Login";
+import { Signup } from "./Signup/Signup";
 
 export const Register = () => {
-  const [formDisplay, setFormDisplay] = useState(true);
+  const [formDisplay, setFormDisplay] = useState("login");
 
   return (
     <div className="h-dvh px-6 flex flex-col items-center justify-center">
       <img src="./hotelin-logo.svg" alt="Hotelin logo" className="mb-16" />
       <h1 className="mb-11 text-h-light text-3xl font-medium dark:text-h-dark">
-        {formDisplay ? "Login" : "Sign up"}
+        {formDisplay === "login" ? "Login" : "Sign up"}
       </h1>
       {formDisplay ? <Login /> : <Signup />}
       {formDisplay ? (
