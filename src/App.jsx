@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import SplashScreen from "./components/splashScreen/SplashScreen";
-import AppRoutes from "./components/routes/AppRoutes";
+import {AppRoutes} from "src/components";
+import {SplashScreen} from "src/components";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

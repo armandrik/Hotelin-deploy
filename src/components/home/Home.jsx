@@ -1,6 +1,6 @@
-import HomeCardHotel from "../modules/HomeCardHotel";
+import {HomeCardHotel} from "src/components";
 
-function Home() {
+export const Home = () => {
   return (
     <div className="pt-2.5 px-5">
       <h1 className="text-h-light text-4xl font-bold mb-4 dark:text-h-dark">
@@ -13,13 +13,13 @@ function Home() {
         <input
           type="text"
           placeholder="Search location"
-          className="w-full text-sm text-p-light px-2.5 outline-none h-10 rounded-lg border-none dark:text-p-dark bg-white shadow-md"
+          className="w-full text-sm text-p-light px-2.5 outline-none h-12 rounded-lg border-none dark:text-h-dark bg-white shadow-sm dark:bg-secondary-dark"
         />
         <svg
           strokeWidth={1.5}
-          className="size-6 absolute right-2.5 top-2 text-p-light cursor-pointer dark:text-p-dark"
+          className="size-6 absolute right-2.5 top-3 text-p-light cursor-pointer dark:text-h-dark"
         >
-          <use href="./sprite.svg#search-icon" />
+          <use href="/sprite.svg#search-icon" />
         </svg>
       </div>
       <h3 className="text-h-light text-xl font-medium mb-5 dark:text-h-dark">
@@ -34,6 +34,4 @@ function Home() {
       <HomeCardHotel />
     </div>
   );
-}
-
-export default Home;
+};

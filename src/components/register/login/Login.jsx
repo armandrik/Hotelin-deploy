@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Login() {
+export const Login = () => {
   const [displayPassword, setDisplayPassword] = useState(false);
 
   return (
@@ -71,6 +71,4 @@ function Login() {
       </button>
     </form>
   );
-}
-
-export default Login;
+};

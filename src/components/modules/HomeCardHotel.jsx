@@ -1,10 +1,10 @@
 import hotelCardImage from "../../assets/hotel-image.png";
 
-function HomeCardHotel() {
+export const HomeCardHotel = () => {
   return (
     <div className="flex justify-between items-center mb-2.5">
       <div className="flex items-center justify-start gap-3.5">
-        <img src={hotelCardImage} />
+        <img className="rounded-md" src="https://safarmarket.com/blog/data/uploaded_files/95217dce1c3db906f03a16a5.jpg" loading="lazy" width={130}/>
         <div>
           <h3 className="text-h-light text-lg font-medium mb-1 dark:text-h-dark">
             Sulawesi
@@ -25,6 +25,4 @@ function HomeCardHotel() {
       </div>
     </div>
   );
-}
-
-export default HomeCardHotel;
+};

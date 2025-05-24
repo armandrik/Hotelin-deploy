@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-function SplashScreen() {
+export const SplashScreen = () => {
   const [fading, setFading] = useState(false);
   const text = "HOTELIN";
   const letters = text.split("").reverse();
@@ -60,6 +60,4 @@ function SplashScreen() {
       </div>
     </div>
   );
-}
-
-export default SplashScreen;
+};

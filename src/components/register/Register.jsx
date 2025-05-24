@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Login from "./login/Login";
-import Signup from "./signup/Signup";
+import {Login} from "./Login/Login";
+import {Signup} from "./Signup/Signup";
 
-function Register() {
+export const Register = () => {
   const [formDisplay, setFormDisplay] = useState(true);
 
   return (
@@ -43,6 +43,4 @@ function Register() {
       </div>
     </div>
   );
-}
-
-export default Register;
+};

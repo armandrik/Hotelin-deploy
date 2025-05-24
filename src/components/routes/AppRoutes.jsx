@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Register from "./../register/Register";
-import HomeLayout from "./../layout/HomeLayout";
-import Home from "../home/Home";
-import Feed from "./../feed/Feed";
-import Map from "./../map/Map";
-import Profile from "./../profile/Profile";
-import NotFound from "./../notfound/NotFound";
+import { Feed } from "src/components";
+import { Home } from "src/components";
+import { HomeLayout } from "src/components";
+import { Map } from "src/components";
+import { NotFound } from "src/components";
+import { Profile } from "src/components";
+import { Register } from "src/components";
 
-function AppRoutes() {
+export const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/register" element={<Register />} />
@@ -20,6 +20,4 @@ function AppRoutes() {
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
-}
-
-export default AppRoutes;
+};
