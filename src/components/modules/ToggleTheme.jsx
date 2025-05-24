@@ -15,9 +15,9 @@ export const ToggleTheme = () => {
             Change Theme
           </h3>
         </div>
-        <label class="inline-flex items-center cursor-pointer ml-auto">
-          <input type="checkbox" value="" class="sr-only peer" />
-          <div class="relative w-9 h-5 bg-gray-200 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-secondary dark:peer-checked:bg-primary"></div>
+        <label className="inline-flex items-center cursor-pointer ml-auto">
+          <input type="checkbox" value="" className="sr-only peer" />
+          <div className="relative w-9 h-5 bg-gray-200 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-secondary dark:peer-checked:bg-primary"></div>
         </label>
       </div>
     </div>
