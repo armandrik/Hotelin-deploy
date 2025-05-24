@@ -1,5 +1,3 @@
-import hotelCardImage from "../../assets/hotel-image.png";
-
 export const HomeCardHotel = () => {
   return (
     <div className="flex justify-between items-center mb-2.5">
