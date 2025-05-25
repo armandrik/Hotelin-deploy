@@ -3,20 +3,24 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 export const HomeLayout = () => {
   const location = useLocation();
 
-  const isActive = (path) => location.pathname === path;
+  // Fix: check if current path starts with the nav path
+  const isActive = (path) =>
+    path === "/"
+      ? location.pathname === "/"
+      : location.pathname.startsWith(path);
 
   const iconClass = (path) =>
     `size-6 ${
       isActive(path)
-        ? "text-secondary dark:text-accesnt" // Active color
-        : "text-nav-icon-light dark:text-nav-icon-dark" // Default color
+        ? "text-secondary dark:text-accesnt"
+        : "text-nav-icon-light dark:text-nav-icon-dark"
     }`;
 
   const pathTitleClass = (path) =>
     `${
       isActive(path)
-        ? "text-xs text-secondary dark:text-accesnt" // Active color
-        : "text-xs text-p-light dark:text-p-dark" // Default color
+        ? "text-xs text-secondary dark:text-accesnt"
+        : "text-xs text-p-light dark:text-p-dark"
     }`;
 
   return (

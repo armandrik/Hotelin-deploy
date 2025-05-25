@@ -1,9 +1,10 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const FeedNavigation = () => {
-  const [activeTab, setActiveTab] = useState("reserve");
+  const location = useLocation();
+
+  const activeTab = location.pathname.endsWith("history") ? "history" : "reserve";
 
   return (
     <div className="relative flex items-center justify-center bg-gray-200 rounded-lg h-12 px-1 py-2 mb-7 dark:bg-secondary-dark overflow-hidden">
@@ -20,7 +21,6 @@ export const FeedNavigation = () => {
       {/* Reserve Button */}
       <Link
         to="/feed"
-        onClick={() => setActiveTab("reserve")}
         className={`w-1/2 z-10 py-2 rounded-md font-medium text-center transition-colors ${
           activeTab === "reserve"
             ? "text-h-light dark:text-white"
@@ -32,8 +32,7 @@ export const FeedNavigation = () => {
 
       {/* History Button */}
       <Link
-        to="history"
-        onClick={() => setActiveTab("history")}
+        to="/feed/history"
         className={`w-1/2 z-10 py-2 rounded-md font-medium text-center transition-colors ${
           activeTab === "history"
             ? "text-h-light dark:text-white"
