@@ -73,6 +73,7 @@ export const Home = () => {
         }}
         initial="hidden"
         animate="show"
+        className="space-y-5"
       >
         {new Array(8).fill(null).map((_, index) => (
           <motion.div
