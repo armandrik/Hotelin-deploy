@@ -2,8 +2,8 @@ export const FormInput = ({
   inputType,
   id,
   placeholder,
-  svgPath,
-  displayUserPass,
+  inputIcon,
+  onIconClick,
 }) => {
   return (
     <div className="relative mb-2.5">
@@ -24,9 +24,9 @@ export const FormInput = ({
       <svg
         strokeWidth={1.5}
         className="size-6 absolute right-2 top-4 text-p-light dark:text-p-dark"
-        onClick={() => displayUserPass(inputType)}
+        onClick={onIconClick}
       >
-        <use href={`/sprite.svg#${svgPath}`} />
+        <use href={`/sprite.svg#${inputIcon}`} />
       </svg>
     </div>
   );

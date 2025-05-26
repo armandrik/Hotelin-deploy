@@ -4,9 +4,9 @@ import { ForgetPassLink, RegisterButton, FormInput } from "src/components";
 export const Signup = ({ setFormType }) => {
   const [inputType, setInputType] = useState("password");
 
-  const displayUserPass = (inputType) => {
+  const onIconClick = () => {
     if (inputType === "password") setInputType("text");
-    if (inputType !== "password") setInputType("password");
+    else setInputType("password");
   };
 
   return (
@@ -19,20 +19,20 @@ export const Signup = ({ setFormType }) => {
           id="username"
           inputType="text"
           placeholder="Name"
-          svgPath="profile-icon"
+          inputIcon="profile-icon"
         />
         <FormInput
           id="email_signup"
           inputType="email"
           placeholder="Email"
-          svgPath="email-icon"
+          inputIcon="email-icon"
         />
         <FormInput
           id="pass_signup"
           inputType={inputType}
           placeholder="Password"
-          svgPath={inputType === "password" ? "hide-pass" : "show-pass"}
-          displayUserPass={displayUserPass}
+          inputIcon={inputType === "password" ? "hide-pass" : "show-pass"}
+          onIconClick={onIconClick}
         />
         <ForgetPassLink />
         <RegisterButton buttonText="Sign up" />
