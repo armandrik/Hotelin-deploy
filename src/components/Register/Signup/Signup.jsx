@@ -1,8 +1,14 @@
-import { FormInput } from "src/components";
-import { ForgetPassLink } from "../../Modules/ForgetPassLink";
-import { RegisterButton } from "src/components";
+import { useState } from "react";
+import { ForgetPassLink, RegisterButton, FormInput } from "src/components";
 
 export const Signup = ({ setFormType }) => {
+  const [inputType, setInputType] = useState("password");
+
+  const displayUserPass = (inputType) => {
+    if (inputType === "password") setInputType("text");
+    if (inputType !== "password") setInputType("password");
+  };
+
   return (
     <>
       <h1 className="mb-11 text-h-light text-3xl font-medium dark:text-h-dark">
@@ -23,9 +29,10 @@ export const Signup = ({ setFormType }) => {
         />
         <FormInput
           id="pass_signup"
-          inputType="password"
+          inputType={inputType}
           placeholder="Password"
-          svgPath="hide-pass"
+          svgPath={inputType === "password" ? "hide-pass" : "show-pass"}
+          displayUserPass={displayUserPass}
         />
         <ForgetPassLink />
         <RegisterButton buttonText="Sign up" />

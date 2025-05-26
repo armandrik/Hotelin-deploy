@@ -1,1 +1,5 @@
+export * from "./LogoutButton"
 export * from "./Profile"
+export * from "./ProfileOptions"
+export * from "./ToggleTheme"
+export * from "./UserAvatar"

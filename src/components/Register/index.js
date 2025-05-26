@@ -1,1 +1,5 @@
+export * from "./ForgetPassLink"
+export * from "./FormInput"
+export * from "./GoogleButton"
 export * from "./Register"
+export * from "./RegisterButton"

@@ -41,7 +41,7 @@ export const Home = () => {
         }}
         initial="hidden"
         animate="show"
-        className="mb-6 h-48 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth"
+        className="mb-3 h-52 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth"
       >
         {new Array(4).fill(null).map((_, index) => (
           <motion.div

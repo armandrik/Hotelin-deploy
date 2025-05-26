@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import { HomeCardHotel } from "src/components";
-import history from "../../assets/history.json";
+import history from "src/assets/History.json";
 
 export const History = () => {
   return (

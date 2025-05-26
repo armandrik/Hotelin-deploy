@@ -1,26 +1,14 @@
-import { useState } from "react";
-
-export const FormInput = ({ inputType, id, placeholder, svgPath }) => {
-  const [passSvgPath, setPassSvgPath] = useState(svgPath);
-  const [passInputType, setPassInputType] = useState(inputType);
-
-  const showPassword = () => {
-    if (id === "pass_signup" || id === "password") {
-      if (passSvgPath === "hide-pass") {
-        setPassSvgPath("show-pass");
-        setPassInputType("text");
-      }
-      if (passSvgPath === "show-pass") {
-        setPassSvgPath("hide-pass");
-        setPassInputType("password");
-      }
-    }
-  };
-
+export const FormInput = ({
+  inputType,
+  id,
+  placeholder,
+  svgPath,
+  displayUserPass,
+}) => {
   return (
     <div className="relative mb-2.5">
       <input
-        type={passInputType}
+        type={inputType}
         id={id}
         className="px-2.5 pb-2.5 pt-4 w-full h-14 text-sm text-p-light bg-transparent rounded-lg border-1 border-border-light appearance-none dark:border-border-dark dark:text-p-dark dark:focus:border-primary focus:outline-none focus:ring-0 focus:border-secondary peer"
         placeholder=" "
@@ -36,9 +24,9 @@ export const FormInput = ({ inputType, id, placeholder, svgPath }) => {
       <svg
         strokeWidth={1.5}
         className="size-6 absolute right-2 top-4 text-p-light dark:text-p-dark"
-        onClick={() => showPassword()}
+        onClick={() => displayUserPass(inputType)}
       >
-        <use href={`/sprite.svg#${passSvgPath}`} />
+        <use href={`/sprite.svg#${svgPath}`} />
       </svg>
     </div>
   );
