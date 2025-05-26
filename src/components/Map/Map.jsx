@@ -1,34 +1,12 @@
-import Lottie from "lottie-react";
 import { MapComponent, MapTypes } from "@neshan-maps-platform/mapbox-gl-react";
 import nmp_mapboxgl from "@neshan-maps-platform/mapbox-gl";
-import { createRoot } from "react-dom/client";
 import { useTheme } from "src/context/ThemeContext";
-import location from "src/assets/Location.json";
 import "@neshan-maps-platform/mapbox-gl/dist/NeshanMapboxGl.css";
+import { createLottieMarker } from './CustomMarker';
+import { HomeCardHotel } from 'src/components';
 
 export const Map = () => {
   const { theme } = useTheme();
-
-  const createLottieMarker = () => {
-    const container = document.createElement("div");
-    container.style.width = "100px";
-    container.style.height = "100px";
-    container.style.transform = "translate(-50%, -100%)";
-    container.style.pointerEvents = "none";
-
-    // Mount the React Lottie component to this container
-    const root = createRoot(container);
-    root.render(
-      <Lottie
-        animationData={location}
-        loop
-        autoplay
-        style={{ width: "100%", height: "100%" }}
-      />
-    );
-
-    return container;
-  };
 
   const mapSetter = (neshanMap) => {
     const lottieMarker = createLottieMarker();
@@ -60,6 +38,9 @@ export const Map = () => {
         }}
         mapSetter={mapSetter}
       />
+      <div className="w-[95%] mx-auto bg-white shadow-md rounded-md absolute bottom-44 left-0 right-0 p-4 dark:bg-secondary-dark">
+        <HomeCardHotel/>
+      </div>
     </div>
   );
 };

@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import { HomeCardHotel } from "src/components";
-import historyIcon from "../../assets/HistoryIcon.json";
+import history from "src/assets/History.json";
 
 export const History = () => {
   return (
     <div>
       <div className="flex items-center justify-start -mt-3 mb-4">
         <div className="w-14 h-14">
-          <Lottie animationData={historyIcon} />
+          <Lottie animationData={history} />
         </div>
         <h3 className="text-h-light text-xl font-medium dark:text-h-dark">
           History Reservation
