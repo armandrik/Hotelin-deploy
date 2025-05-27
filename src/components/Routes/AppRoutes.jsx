@@ -8,6 +8,7 @@ import { Register } from "src/components";
 import { Reserve } from "src/components";
 import { History } from "src/components";
 import { FeedLayout } from "src/components";
+import { HotelDetails } from "src/components";
 
 export const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ export const AppRoutes = () => {
         </Route>
         <Route path="map" element={<Map />} />
         <Route path="profile" element={<Profile />} />
+        <Route path="hotel/:id" element={<HotelDetails />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
