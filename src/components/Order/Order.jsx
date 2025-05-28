@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { OrderForm } from "src/components/order/OrderForm";
+import { OrderForm } from "src/components";
 
 export const Order = () => {
   const navigate = useNavigate();
