@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { switchPrimeReactTheme } from "src/components";
 import { useTheme } from "src/context/ThemeContext";
 
-export const DatePicker = ({ value, onChange }) => {
+export const DatePicker = ({ value, onChange, onBlur }) => {
   const { theme } = useTheme();
 
   useEffect(() => {
@@ -30,6 +30,8 @@ export const DatePicker = ({ value, onChange }) => {
           selectionMode="range"
           readOnlyInput
           hideOnRangeSelection
+          onBlur={onBlur}
+          onHide={onBlur}
           className="w-full"
           placeholder="schedule your trip"
         />
