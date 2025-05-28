@@ -1,6 +1,6 @@
 export * from './DatePicker'
 export * from './DatePickerTheme'
-export * from './DiscountInput'
+export * from './Discount'
 export * from './Order'
 export * from './OrderForm'
 export * from './TravellerCount'

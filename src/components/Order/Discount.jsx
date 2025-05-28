@@ -1,4 +1,4 @@
-export const DiscountInput = () => {
+export const Discount = () => {
   return (
     <div className="mb-5">
       <h3 className="flex items-center justify-start gap-1 mb-3 text-h-light text-lg font-medium dark:text-h-dark">

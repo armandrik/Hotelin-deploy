@@ -1,5 +1,5 @@
 import { useForm, Controller } from "react-hook-form";
-import { DatePicker, TravellerCount, DiscountInput } from "src/components";
+import { DatePicker, TravellerCount, Discount } from "src/components";
 
 export const OrderForm = () => {
   const { control, watch } = useForm({
@@ -60,7 +60,7 @@ export const OrderForm = () => {
           )}
         />
       </div>
-      <DiscountInput />
+      <Discount />
 
       <button
         disabled={isButtonDisabled}
