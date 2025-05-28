@@ -1,8 +1,14 @@
 import { Calendar } from "primereact/calendar";
-import { useState } from "react";
+import { useEffect } from "react";
+import { switchPrimeReactTheme } from "src/components";
+import { useTheme } from "src/context/ThemeContext";
 
-export const DatePicker = () => {
-  const [dates, setDates] = useState(null);
+export const DatePicker = ({ value, onChange }) => {
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    switchPrimeReactTheme(theme);
+  }, [theme]);
 
   return (
     <div className="relative mb-5 border-b border-border-light dark:border-border-dark pb-5">
@@ -11,7 +17,7 @@ export const DatePicker = () => {
           Dates
         </h3>
         <p
-          onClick={() => setDates(null)}
+          onClick={() => onChange(null)}
           className="text-secondary text-sm font-medium cursor-pointer dark:text-primary"
         >
           Clear
@@ -19,18 +25,17 @@ export const DatePicker = () => {
       </div>
       <div className="relative">
         <Calendar
-          value={dates}
-          onChange={(e) => setDates(e.value)}
+          value={value}
+          onChange={(e) => onChange(e.value)}
           selectionMode="range"
           readOnlyInput
           hideOnRangeSelection
-          className="w-full bg-accesnt-light text-sm text-p-light p-2 rounded-md dark:bg-accesnt-dark dark:text-p-dark"
+          className="w-full"
           placeholder="schedule your trip"
-          panelClassName="mt-3 p-2 bg-white text-p-light mb-2 rounded-md dark:bg-secondary-dark shadow-sm dark:text-p-dark"
         />
         <svg
           strokeWidth={1.5}
-          className="size-6 absolute top-1 right-2 text-p-light dark:text-p-dark"
+          className="size-6 absolute top-3 right-2 text-p-light dark:text-p-dark"
         >
           <use href="/sprite.svg#calendar-icon" />
         </svg>

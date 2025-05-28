@@ -115,21 +115,3 @@ body {
     animation: pulse-ring 2s ease-out infinite 1s;
   }
 }
-
-.p-datepicker-header{
-  border-bottom: 1px solid #79797981;
-  padding: 2px 2px 10px 2px;
-}
-
-.p-datepicker-calendar-container{
-  padding: 5px;
-  margin-top: 5px;
-}
-
-.p-datepicker-calendar {
-  border-collapse: separate;
-}
-
-.p-datepicker-calendar thead {
-  background-color: #8b8b8b3b;
-}

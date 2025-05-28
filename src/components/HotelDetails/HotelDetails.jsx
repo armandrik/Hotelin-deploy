@@ -1,9 +1,16 @@
+import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { TripPlan } from "src/components";
 import { OrderButton } from "src/components";
 
 export const HotelDetails = () => {
   const naviagte = useNavigate();
+
+  const scrollRef = useRef(null);
+
+  const scrollByAmount = (amount) => {
+    scrollRef.current.scrollBy({ left: amount, behavior: "smooth" });
+  };
 
   return (
     <div className="p-4">
@@ -41,10 +48,25 @@ export const HotelDetails = () => {
           <span className="text-xs text-p-light dark:text-p-dark">per day</span>
         </div>
       </div>
-      <h3 className="text-h-light text-xl font-medium mb-5 dark:text-h-dark">
+      <h3 className="text-h-light text-xl font-medium mb-5 flex items-center justify-between dark:text-h-dark">
         Trip Plan
+        <div className="flex items-center justify-end gap-2">
+          <button className="bg-white w-8 h-8 rounded-full flex items-center justify-center shadow-xs dark:bg-secondary-dark" onClick={() => scrollByAmount(-200)}>
+            <svg className="size-6 rotate-180 cursor-pointer text-secondary dark:text-accesnt">
+              <use href="/sprite.svg#arrow-right" />
+            </svg>
+          </button>
+          <button className="bg-white w-8 h-8 rounded-full flex items-center justify-center shadow-xs dark:bg-secondary-dark" onClick={() => scrollByAmount(200)}>
+            <svg className="size-6 cursor-pointer text-secondary dark:text-accesnt">
+              <use href="/sprite.svg#arrow-right" />
+            </svg>
+          </button>
+        </div>
       </h3>
-      <div className="mb-5 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth">
+      <div
+        ref={scrollRef}
+        className="mb-5 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth"
+      >
         {new Array(4).fill(null).map((_, index) => (
           <TripPlan key={index} />
         ))}
