@@ -25,8 +25,8 @@ export const AppRoutes = () => {
         <Route path="profile" element={<Profile />} />
         <Route path="hotel/:id" element={<HotelDetails />} />
         <Route path="order/:id" element={<Order />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
-      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };

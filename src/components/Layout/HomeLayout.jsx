@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 
 export const HomeLayout = () => {
   const location = useLocation();
+  const [userAuth, setUserAuth] = useState(true);
 
   // Fix: check if current path starts with the nav path
   const isActive = (path) =>
@@ -47,12 +49,22 @@ export const HomeLayout = () => {
             </svg>
             <p className={pathTitleClass("/map")}>Map</p>
           </Link>
-          <Link to="/profile" className="flex flex-col items-center">
-            <svg strokeWidth={1.7} className={iconClass("/profile")}>
-              <use href="/sprite.svg#profile" />
-            </svg>
-            <p className={pathTitleClass("/profile")}>Profile</p>
-          </Link>
+          {userAuth ? (
+            <Link to="/profile" className="flex flex-col items-center">
+              <svg strokeWidth={1.7} className={iconClass("/profile")}>
+                <use href="/sprite.svg#profile" />
+              </svg>
+              <p className={pathTitleClass("/profile")}>Profile</p>
+            </Link>
+          ) : (
+            <Link to="/register" className="flex flex-col items-center">
+              <svg strokeWidth={1.5} className={iconClass("/login")}>
+                <use href="/sprite.svg#login-icon" />
+              </svg>
+
+              <p className={pathTitleClass("/login")}>Login</p>
+            </Link>
+          )}
         </nav>
       </div>
     </div>
