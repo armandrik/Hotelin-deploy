@@ -7,7 +7,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/",
+  "start_url": ".",
   "icons": [
     { "src": "icons/16x16.png", "sizes": "16x16", "type": "image/png" },
     { "src": "icons/32x32.png", "sizes": "32x32", "type": "image/png" },
@@ -28,20 +28,32 @@
       "purpose": "maskable"
     }
   ],
-    "shortcuts": [
+  "shortcuts": [
     {
       "name": "Map Plugin",
       "short_name": "Map",
       "description": "Search for hotels near your destination",
       "url": "/map",
-      "icons": [{ "src": "icons/map-192x192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [
+        {
+          "src": "icons/map-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Profile",
       "short_name": "Profile",
       "description": "manage your account",
       "url": "/profile",
-      "icons": [{ "src": "icons/profile-192x192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [
+        {
+          "src": "icons/profile-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
