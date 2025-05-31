@@ -2,8 +2,8 @@ import { MapComponent, MapTypes } from "@neshan-maps-platform/mapbox-gl-react";
 import nmp_mapboxgl from "@neshan-maps-platform/mapbox-gl";
 import { useTheme } from "src/context/ThemeContext";
 import "@neshan-maps-platform/mapbox-gl/dist/NeshanMapboxGl.css";
-import { createLottieMarker } from './CustomMarker';
-import { HomeCardHotel } from 'src/components';
+import { createLottieMarker } from "./CustomMarker";
+import { HomeCardHotel } from "src/components";
 
 export const Map = () => {
   const { theme } = useTheme();
@@ -11,7 +11,7 @@ export const Map = () => {
   const mapSetter = (neshanMap) => {
     const lottieMarker = createLottieMarker();
 
-    new nmp_mapboxgl.Marker({ element: lottieMarker })
+    new nmp_mapboxgl.Marker({ element: lottieMarker, offset: [0, -20] })
       .setLngLat([51.391173, 35.700954])
       .addTo(neshanMap);
   };
@@ -39,7 +39,7 @@ export const Map = () => {
         mapSetter={mapSetter}
       />
       <div className="w-[95%] mx-auto bg-white shadow-md rounded-md absolute bottom-44 left-0 right-0 p-4 dark:bg-secondary-dark">
-        <HomeCardHotel/>
+        <HomeCardHotel />
       </div>
     </div>
   );

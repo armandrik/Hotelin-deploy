@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const OrderButton = () => {
   return (
-    <div className="w-full mx-auto bg-white p-4 rounded-md shadow-md flex items-center justify-between dark:bg-secondary-dark">
+    <div className="w-[95%] mx-auto bg-white p-4 rounded-md shadow-md flex items-center justify-between dark:bg-secondary-dark">
       <div>
         <p className="text-p-light font-medium dark:text-white">Total Price</p>
         <div className="flex items-center gap-1">

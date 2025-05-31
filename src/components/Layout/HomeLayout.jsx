@@ -30,7 +30,7 @@ export const HomeLayout = () => {
       <Outlet />
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-transparent">
-        <nav className="max-w-lg mx-auto w-full flex justify-between items-center gap-2.5 bg-white h-[73px] px-6 py-4 rounded-tr-4xl rounded-tl-4xl dark:bg-accesnt-dark shadow-md">
+        <nav className="max-w-lg mx-auto w-full flex justify-between items-center gap-2.5 bg-white min-h-[73px] px-6 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))] rounded-tr-4xl rounded-tl-4xl dark:bg-accesnt-dark shadow-md">
           <Link to="/" className="flex flex-col items-center">
             <svg width="24" height="24" className={iconClass("/")}>
               <use href="/sprite.svg#hotelin-logo" />
