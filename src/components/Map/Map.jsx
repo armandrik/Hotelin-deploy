@@ -17,7 +17,7 @@ export const Map = () => {
   };
 
   return (
-    <div className="w-full h-dvh">
+    <div className="w-full">
       <MapComponent
         options={{
           mapKey: "web.0eec1f3a9b584618bc5d707d62aee99f",
@@ -38,7 +38,7 @@ export const Map = () => {
         }}
         mapSetter={mapSetter}
       />
-      <div className="w-[95%] mx-auto bg-white shadow-md rounded-md absolute bottom-44 left-0 right-0 p-4 dark:bg-secondary-dark">
+      <div className="w-[95%] mx-auto bg-white shadow-md rounded-md absolute top-2 left-0 right-0 px-2 pt-2 dark:bg-secondary-dark">
         <HomeCardHotel />
       </div>
     </div>

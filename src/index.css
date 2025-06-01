@@ -45,6 +45,10 @@ body {
   .map-container {
     height: 100dvh;
   }
+
+  #bottom-nav {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }
 
 @layer utility {
