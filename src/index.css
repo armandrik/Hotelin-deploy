@@ -46,6 +46,11 @@ body {
     height: 100dvh;
   }
 
+  .wm-container{
+    left: -1px !important;
+    bottom: 76px !important;
+  }
+
   #bottom-nav {
     padding-bottom: env(safe-area-inset-bottom);
   }

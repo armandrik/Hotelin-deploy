@@ -1,6 +1,6 @@
 export const UserAvatar = () => {
   return (
-    <div className="w-full flex items-center justify-start gap-4 p-4 mb-6 h-24 rounded-md shadow-xs bg-white dark:bg-secondary-dark">
+    <div className="w-full flex items-center justify-start gap-4 p-4 mb-4 h-24 rounded-md shadow-xs bg-white dark:bg-secondary-dark">
       <div className="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
         <svg className="absolute w-12 h-12 text-gray-400 -left-1">
           <use href="/sprite.svg#user-avatar" />

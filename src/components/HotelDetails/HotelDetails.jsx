@@ -15,7 +15,7 @@ export const HotelDetails = () => {
   return (
     <div className="py-4 relative">
       <div className="sticky top-4 px-4">
-        <div className="w-full mx-auto left-0 right-0 mb-5 bg-white shadow-sm rounded-md flex items-center py-2 px-4 dark:bg-accesnt-dark">
+        <div className="w-full mx-auto left-0 right-0 mb-5 bg-white shadow-sm rounded-full flex items-center py-2 px-4 dark:bg-accesnt-dark">
           <div
             onClick={() => naviagte(-1)}
             className=" w-6 h-6 cursor-pointer flex items-center justify-center dark:text-white"

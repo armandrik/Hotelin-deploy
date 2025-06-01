@@ -1,5 +1,5 @@
 import { useTheme } from "src/context/ThemeContext";
-import clickSound from "/public/sound/ClickSound.mp3";
+import clickSound from "/sound/ClickSound.mp3";
 import { useEffect } from "react";
 
 export const ToggleTheme = ({ onThemeToggle }) => {
