@@ -2,7 +2,7 @@
   "name": "Hotelin",
   "short_name": "Hotelin",
   "description": "Hotel Reservation Platform",
-  "theme_color": "#2e2e2e",
+  "theme_color": "#22212b",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
