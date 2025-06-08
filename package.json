@@ -7,13 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "server": "json-server --watch db/hotels.json --port 5000"
   },
   "dependencies": {
     "@neshan-maps-platform/mapbox-gl-react": "^1.0.3",
     "@tailwindcss/vite": "^4.1.7",
     "@tanstack/react-query": "^5.76.1",
+    "@tanstack/react-virtual": "^3.13.9",
     "framer-motion": "^12.12.1",
+    "json-server": "^1.0.0-beta.3",
     "lottie-react": "^2.4.1",
     "primereact": "^10.9.5",
     "react": "^19.1.0",
@@ -31,6 +35,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.0"
   }
 }

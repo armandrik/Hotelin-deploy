@@ -1,40 +1,57 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import { HomeCardHotel } from "src/components";
-import { FavoriteCard } from "src/components";
+import { useVirtualizer } from "@tanstack/react-virtual";
+import { useQuery } from "@tanstack/react-query";
+import {
+  HomeCardHotel,
+  FavoriteCard,
+  HotelSkeleton,
+  FavHotelSkeleton,
+  HeaderSection,
+  SearchInput,
+} from "src/components";
+import { fetchHotels } from "src/api";
 
 export const Home = () => {
+  const { data: hotels, isLoading } = useQuery({
+    queryFn: () => fetchHotels(),
+    queryKey: ["hotels"],
+    staleTime: 1000 * 60 * 60 * 4,
+    gcTime: 1000 * 60 * 60 * 4,
+    initialData: () => {
+      // Try to read from localStorage cache first
+      const cached = localStorage.getItem("hotels-cache");
+      return cached ? JSON.parse(cached) : undefined;
+    },
+    onSuccess: (data) => {
+      // Save fresh data to localStorage cache
+      localStorage.setItem("hotels-cache", JSON.stringify(data));
+    },
+    onError: (error) => {
+      console.error("Failed fetching hotels:", error);
+    },
+  });
+
   const scrollRef = useRef(null);
+  const listRef = useRef(null);
 
   const scrollByAmount = (amount) => {
     scrollRef.current.scrollBy({ left: amount, behavior: "smooth" });
   };
 
+  const rowVirtualizer = useVirtualizer({
+    count: hotels?.length ?? 0,
+    getScrollElement: () => listRef.current,
+    estimateSize: () => 100,
+    overscan: 5,
+  });
+
   return (
     <div>
-      <h1 className="text-h-light text-4xl pt-2.5 px-5 font-bold mb-4 flex items-center justify-between dark:text-h-dark">
-        Let's pack for <br /> your trip
-        <svg width={40} height={40}>
-          <use href="/sprite.svg#hotelin-logo" />
-        </svg>
-      </h1>
-      <p className="text-p-light text-sm pt-2.5 px-5 font-medium mb-4">
-        Use one of our suggestions or make a <br /> list of what a pack
-      </p>
-      <div className="relative mb-4 pt-2.5 px-5">
-        <input
-          type="text"
-          placeholder="Search location"
-          className="w-full text-sm text-p-light px-2.5 outline-none h-12 rounded-lg border-none dark:text-h-dark bg-white shadow-sm dark:bg-secondary-dark"
-        />
-        <svg
-          strokeWidth={1.5}
-          className="size-6 absolute right-6.5 top-5.5 text-p-light cursor-pointer dark:text-h-dark"
-        >
-          <use href="/sprite.svg#search-icon" />
-        </svg>
-      </div>
-      <h3 className="text-h-light text-xl pt-2.5 px-5 font-medium mb-5 flex items-center justify-between dark:text-h-dark">
+      <HeaderSection />
+      <SearchInput />
+
+      <h3 className="text-h-light text-xl pt-2.5 px-3 font-medium mb-5 flex items-center justify-between dark:text-h-dark">
         Favorite Place
         <div className="flex items-center justify-end gap-2">
           <button
@@ -55,68 +72,91 @@ export const Home = () => {
           </button>
         </div>
       </h3>
-      <motion.div
-        variants={{
-          hidden: {},
-          show: {
-            transition: {
-              staggerChildren: 0.3,
-            },
-          },
-        }}
-        initial="hidden"
-        animate="show"
-        ref={scrollRef}
-        className="h-56 pt-2.5 px-5 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth"
-      >
-        {new Array(4).fill(null).map((_, index) => (
-          <motion.div
-            key={index}
-            variants={{
-              hidden: { opacity: 0, x: 50 },
-              show: {
-                opacity: 1,
-                x: 0,
-                transition: { duration: 0.3, ease: "easeOut" },
+      {isLoading ? (
+        <div className="pt-2.5 px-3 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth">
+          {new Array(2).fill(null).map((_, index) => (
+            <FavHotelSkeleton key={index} />
+          ))}
+        </div>
+      ) : (
+        <motion.div
+          variants={{
+            hidden: {},
+            show: {
+              transition: {
+                staggerChildren: 0.1,
               },
-            }}
-          >
-            <FavoriteCard />
-          </motion.div>
-        ))}
-      </motion.div>
+            },
+          }}
+          initial="hidden"
+          animate="show"
+          ref={scrollRef}
+          className="h-56 pt-2.5 px-3 flex snap-x snap-mandatory gap-x-[14px] no-scrollbar overflow-x-auto scroll-smooth"
+        >
+          {hotels.slice(15, 20).map((item, index) => (
+            <motion.div
+              key={index}
+              variants={{
+                hidden: { opacity: 0, x: 50 },
+                show: {
+                  opacity: 1,
+                  x: 0,
+                  transition: { duration: 0.1, ease: "easeOut" },
+                },
+              }}
+            >
+              <FavoriteCard data={item} />
+            </motion.div>
+          ))}
+        </motion.div>
+      )}
       <h3 className="text-h-light text-xl pt-2.5 px-5 font-medium mb-5 dark:text-h-dark">
         You might like
       </h3>
-      <motion.div
-        variants={{
-          hidden: {},
-          show: {
-            transition: {
-              staggerChildren: 0.3,
-            },
-          },
-        }}
-        initial="hidden"
-        animate="show"
-        className="space-y-5 pt-2.5 px-5"
-      >
-        {new Array(8).fill(null).map((_, index) => (
-          <motion.div
-            key={index}
-            variants={{
-              hidden: { opacity: 0, y: 30 },
-              show: {
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.2, ease: "easeOut" },
-              },
+      {isLoading ? (
+        <div className="space-y-5 pt-2.5 px-3">
+          {new Array(3).fill(null).map((_, index) => (
+            <HotelSkeleton key={index} />
+          ))}
+        </div>
+      ) : (
+        <div
+          ref={listRef}
+          className="pt-2.5 px-3 no-scrollbar h-[800px]"
+          style={{
+            boxSizing: "border-box",
+            overflowY: "auto",
+          }}
+        >
+          <div
+            style={{
+              height: `${rowVirtualizer.getTotalSize()}px`,
+              position: "relative",
             }}
           >
-            <HomeCardHotel />
-          </motion.div>
-        ))}
-      </motion.div>
+            {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+              const item = hotels[virtualRow.index];
+              return (
+                <div
+                  key={item.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.1, ease: "easeOut" }}
+                  style={{
+                    position: "absolute",
+                    top: virtualRow.start,
+                    left: 0,
+                    width: "100%",
+                    boxSizing: "border-box",
+                  }}
+                >
+                  <HomeCardHotel data={item} />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

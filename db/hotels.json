@@ -1,0 +1,904 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel1",
+      "country": "Iran",
+      "pricePerDay": 242,
+      "coords": [31.388926, 60.163173],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/hotel-outside-table-deck-balcony_1203-5552.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 2,
+      "name": "Hotel2",
+      "country": "Iran",
+      "pricePerDay": 296,
+      "coords": [26.52538, 53.537979],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-wooden-reception-center-spacious-lobby-classical-style-3d-rendering_295714-4144.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 3,
+      "name": "Hotel3",
+      "country": "Iran",
+      "pricePerDay": 99,
+      "coords": [32.183673, 50.632484],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/egyptian-tropical-hotel_133748-3864.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 4,
+      "name": "Hotel4",
+      "country": "Iran",
+      "pricePerDay": 187,
+      "coords": [33.711621, 45.644443],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/lanzarote-spain_1048944-20028218.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 5,
+      "name": "Hotel5",
+      "country": "Iran",
+      "pricePerDay": 263,
+      "coords": [35.273542, 62.588215],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/luxurious-marrakech-style-hotel-courtyard-with-central-pool_536604-18036.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 6,
+      "name": "Hotel6",
+      "country": "Iran",
+      "pricePerDay": 245,
+      "coords": [37.563205, 55.557586],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2724.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 7,
+      "name": "Hotel7",
+      "country": "Iran",
+      "pricePerDay": 181,
+      "coords": [38.632696, 45.925837],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/illuminated-green-garden-front-luxury-hotel-evening_278455-20003.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 8,
+      "name": "Hotel8",
+      "country": "Iran",
+      "pricePerDay": 197,
+      "coords": [34.291334, 61.128104],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/swimming-pool-with-palms-colourful-flowers_370806-24.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 9,
+      "name": "Hotel9",
+      "country": "Iran",
+      "pricePerDay": 83,
+      "coords": [37.488788, 61.960621],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/free-photo/leisure-beautiful-health-garden-landscape_1203-4856.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 10,
+      "name": "Hotel10",
+      "country": "Iran",
+      "pricePerDay": 197,
+      "coords": [27.812637, 55.970972],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/laptop-mobile-mango-smoothie-sunbed_135932-8659.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 11,
+      "name": "Hotel11",
+      "country": "Iran",
+      "pricePerDay": 161,
+      "coords": [36.529628, 44.099474],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/swimming-pool-beach-luxury-hotel_146671-19416.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 12,
+      "name": "Hotel12",
+      "country": "Iran",
+      "pricePerDay": 300,
+      "coords": [37.937501, 61.35771],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/reception-desk-with-lobby-entrance-lounge-area-3d-rendering_295714-3640.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 13,
+      "name": "Hotel13",
+      "country": "Iran",
+      "pricePerDay": 179,
+      "coords": [31.327082, 61.868866],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-view-lasentha-boutique-hotel-hoi-vietnam_265989-19219.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 14,
+      "name": "Hotel14",
+      "country": "Iran",
+      "pricePerDay": 192,
+      "coords": [30.072118, 49.243244],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/several-luxury-loungers-night-illumination-egypt_157927-18454.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 15,
+      "name": "Hotel15",
+      "country": "Iran",
+      "pricePerDay": 288,
+      "coords": [26.37862, 45.008428],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/beautiful-umbrella-chair-around-swimming-pool-hotel-resort_74190-6573.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 16,
+      "name": "Hotel16",
+      "country": "Iran",
+      "pricePerDay": 233,
+      "coords": [33.895792, 61.874597],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/beautiful-embankment-walking-sport-amara-dolce-vita-luxury-hotel-alanya-turkey_146671-18884.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 17,
+      "name": "Hotel17",
+      "country": "Iran",
+      "pricePerDay": 109,
+      "coords": [31.683328, 53.223328],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/luxurious-boutique-hotel-courtyard-with-pool-marrakech_536604-18021.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 18,
+      "name": "Hotel18",
+      "country": "Iran",
+      "pricePerDay": 255,
+      "coords": [34.103865, 51.99982],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/illuminated-hotel-with-swimming-pool-night-evening-lights-resort_77190-3794.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 19,
+      "name": "Hotel19",
+      "country": "Iran",
+      "pricePerDay": 110,
+      "coords": [35.96732, 51.02588],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-evening-hotel-arabic-egypt-sharm-el-sheikh_121943-1393.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 20,
+      "name": "Hotel20",
+      "country": "Iran",
+      "pricePerDay": 185,
+      "coords": [27.635354, 55.454357],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 21,
+      "name": "Hotel21",
+      "country": "Iran",
+      "pricePerDay": 79,
+      "coords": [34.32804, 61.3957],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/five-star-hotel-building-evening-night-snapshot-lifestyle-recreation-area-luxurious-fivestar-hotel-lights-evening-hotel-night-bright-lights-resort-hotel_929087-10590.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 22,
+      "name": "Hotel22",
+      "country": "Iran",
+      "pricePerDay": 183,
+      "coords": [30.907927, 48.02946],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 23,
+      "name": "Hotel23",
+      "country": "Iran",
+      "pricePerDay": 113,
+      "coords": [33.827593, 60.604651],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/bedroom-with-wooden-table-two-beds-with-wall-art-it_889227-9268.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 24,
+      "name": "Hotel24",
+      "country": "Iran",
+      "pricePerDay": 72,
+      "coords": [32.464909, 50.281187],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/warm-sunrise-hotel-by-sea_1268-6151.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 25,
+      "name": "Hotel25",
+      "country": "Iran",
+      "pricePerDay": 236,
+      "coords": [38.062052, 57.323292],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/popular-resort-amara-dolce-vita-luxury-hotel-with-pools-water-parks-recreational-area-along-sea-coast-turkey-sunset-tekirova-kemer_146671-18759.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 26,
+      "name": "Hotel26",
+      "country": "Iran",
+      "pricePerDay": 125,
+      "coords": [34.11103, 61.409051],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/type-entertainment-complex_146671-19411.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 27,
+      "name": "Hotel27",
+      "country": "Iran",
+      "pricePerDay": 174,
+      "coords": [38.471069, 52.436103],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/business-partners-travel-work-purposes-preparing-check-luxury-hotel-men-elegant-tailored-suits-travelling-company-international-conference-white-collar-workers-trip_482257-72584.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 28,
+      "name": "Hotel28",
+      "country": "Iran",
+      "pricePerDay": 156,
+      "coords": [27.588321, 60.353134],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/pretty-woman-relaxing-deckchair-by-swimming-pool-spa_447912-3783.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 29,
+      "name": "Hotel29",
+      "country": "Iran",
+      "pricePerDay": 180,
+      "coords": [28.914404, 52.989763],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/luxury-interior-exterior-design-collection-highend-architectural-home-decor-concepts-feat_1300748-13892.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 30,
+      "name": "Hotel30",
+      "country": "Iran",
+      "pricePerDay": 65,
+      "coords": [33.301569, 46.575334],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/huge-swimming-pool-near-hotel-resort-san-teodoro-sardinia_181624-9498.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 31,
+      "name": "Hotel31",
+      "country": "Iran",
+      "pricePerDay": 251,
+      "coords": [31.548194, 58.279701],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/dubai-united-arab-emirates-november-10-mall-emirates-dubai-kempinski-hotel_141438-2956.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 32,
+      "name": "Hotel32",
+      "country": "Iran",
+      "pricePerDay": 257,
+      "coords": [26.282693, 62.089617],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/free-photo/hammocks-with-city-background_1203-691.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 33,
+      "name": "Hotel33",
+      "country": "Iran",
+      "pricePerDay": 111,
+      "coords": [38.00394, 49.890589],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/italy-sicily-modica-ragusa-province-4-july-2011-hotel-s-facade-entrance-door-sunset-editorial_857279-13914.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 34,
+      "name": "Hotel34",
+      "country": "Iran",
+      "pricePerDay": 149,
+      "coords": [38.16771, 55.896968],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/beautiful-hotel-insights-details_23-2149160766.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 35,
+      "name": "Hotel35",
+      "country": "Iran",
+      "pricePerDay": 203,
+      "coords": [33.429473, 52.410264],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/hammocks-umbrellas-placed-row_1203-185.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 36,
+      "name": "Hotel36",
+      "country": "Iran",
+      "pricePerDay": 244,
+      "coords": [28.129129, 52.331788],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/tourist-arriving-hotel-resort_482257-78767.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 37,
+      "name": "Hotel37",
+      "country": "Iran",
+      "pricePerDay": 112,
+      "coords": [35.565392, 45.633887],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/tropical-relaxation-travel-water-beach_1203-5147.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 38,
+      "name": "Hotel38",
+      "country": "Iran",
+      "pricePerDay": 174,
+      "coords": [33.950402, 58.368827],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/luxurious-forza-terra-hotel-with-terraces-panoramic-windows-dobrota-montenegro-drone_278455-21026.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 39,
+      "name": "Hotel39",
+      "country": "Iran",
+      "pricePerDay": 143,
+      "coords": [31.653034, 44.707204],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/modern-luxury-lobby-hotel-interior-with-luxurious-furniture-3d-rendering_295714-4093.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 40,
+      "name": "Hotel40",
+      "country": "Iran",
+      "pricePerDay": 54,
+      "coords": [32.73453, 51.311454],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/pool-lighting-backyard-night-family-lifestyle-living-area_222877-14971.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 41,
+      "name": "Hotel41",
+      "country": "Iran",
+      "pricePerDay": 267,
+      "coords": [29.40389, 53.627352],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/pool-with-hammock-area_1203-205.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 42,
+      "name": "Hotel42",
+      "country": "Iran",
+      "pricePerDay": 267,
+      "coords": [31.698764, 52.139648],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/lounge-bar-modern-european-resort-hotel-interior-with-terrace-tables-lighting_1401-3026.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 43,
+      "name": "Hotel43",
+      "country": "Iran",
+      "pricePerDay": 295,
+      "coords": [38.378965, 54.413174],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/swimming-pool-roof-top-bar-hotel-deck-bangkok-city-thailand-6aug2020_167657-1840.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 44,
+      "name": "Hotel44",
+      "country": "Iran",
+      "pricePerDay": 120,
+      "coords": [31.574749, 52.398498],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/swimming-pool-roof-top-bar-hotel-deck-bangkok-city-thailand-6aug2020_167657-1840.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 45,
+      "name": "Hotel45",
+      "country": "Iran",
+      "pricePerDay": 60,
+      "coords": [26.5385, 45.713388],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/hotel_664434-4479.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 46,
+      "name": "Hotel46",
+      "country": "Iran",
+      "pricePerDay": 242,
+      "coords": [25.331728, 53.736676],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/miami-usa-april-15-2021-south-beach-hotel-buildings-ocean-drive-florida_474717-18183.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 47,
+      "name": "Hotel47",
+      "country": "Iran",
+      "pricePerDay": 59,
+      "coords": [25.726397, 46.074229],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/luxury-five-star-hotel-welcomes-guests-weekend_110955-681.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 48,
+      "name": "Hotel48",
+      "country": "Iran",
+      "pricePerDay": 272,
+      "coords": [38.415836, 52.640856],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/hammocks-umbrellas-with-trees_1203-210.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 49,
+      "name": "Hotel49",
+      "country": "Iran",
+      "pricePerDay": 300,
+      "coords": [26.617388, 59.653304],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/home-former-owner-is-market-3-5-million_379858-19934.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 50,
+      "name": "Hotel50",
+      "country": "Iran",
+      "pricePerDay": 249,
+      "coords": [28.4576, 45.734628],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/beautiful-comfortable-luxury-white-pillow-blanket-bed-decoration-bedroom_74190-8972.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 51,
+      "name": "Hotel51",
+      "country": "Iran",
+      "pricePerDay": 280,
+      "coords": [37.815966, 59.525014],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/retired-guest-paying-coffee_482257-76581.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 52,
+      "name": "Hotel52",
+      "country": "Iran",
+      "pricePerDay": 69,
+      "coords": [33.079691, 62.599198],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/swimming-pool_1203-3570.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 53,
+      "name": "Hotel53",
+      "country": "Iran",
+      "pricePerDay": 161,
+      "coords": [27.151256, 60.429736],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/premium-photo/asian-women-approach-front-desk-ask-about-their-room_482257-100795.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 54,
+      "name": "Hotel54",
+      "country": "Iran",
+      "pricePerDay": 177,
+      "coords": [32.378487, 59.836977],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/modern-luxury-hotel-office-reception-lounge-with-meeting-room_105762-1772.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 55,
+      "name": "Hotel55",
+      "country": "Iran",
+      "pricePerDay": 55,
+      "coords": [30.221913, 50.324771],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/pool-luxury-resort-night_163782-9169.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 56,
+      "name": "Hotel56",
+      "country": "Iran",
+      "pricePerDay": 248,
+      "coords": [33.756322, 56.93088],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/white-comfortable-pillow-blanket-bed-with-light-lamp_74190-12078.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 57,
+      "name": "Hotel57",
+      "country": "Iran",
+      "pricePerDay": 59,
+      "coords": [38.366214, 54.712729],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/orchid-summer-resort-rattan-nature_1203-4873.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 58,
+      "name": "Hotel58",
+      "country": "Iran",
+      "pricePerDay": 144,
+      "coords": [25.43007, 44.219873],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/penola-australia-april-10-2023-royal-oak-penola-pub-hotel-penola-township-coonawarra-wine-region-sunny-autumn-evening-south-australia-australia_1020609-2215.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 59,
+      "name": "Hotel59",
+      "country": "Iran",
+      "pricePerDay": 109,
+      "coords": [36.070854, 47.238069],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/hotel-nevada-usa_1268-14393.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 60,
+      "name": "Hotel60",
+      "country": "Iran",
+      "pricePerDay": 144,
+      "coords": [35.228428, 60.264314],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/amazing-view-luxury-hotel-with-cloudy-sky-bodrum-turkey_627829-7114.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 61,
+      "name": "Hotel61",
+      "country": "Iran",
+      "pricePerDay": 248,
+      "coords": [38.158393, 44.730355],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/spa-pool-sky-leisure-background_1203-4946.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 62,
+      "name": "Hotel62",
+      "country": "Iran",
+      "pricePerDay": 164,
+      "coords": [26.778801, 56.567261],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-restaurant-with-palm-trees-around-no-people-athens-greece_454608-175.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 63,
+      "name": "Hotel63",
+      "country": "Iran",
+      "pricePerDay": 272,
+      "coords": [34.362963, 45.244301],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/pillow-bed_74190-2048.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 64,
+      "name": "Hotel64",
+      "country": "Iran",
+      "pricePerDay": 215,
+      "coords": [30.225101, 45.874836],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-luxury-swimming-pool-with-relax-area_1339-82847.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 65,
+      "name": "Hotel65",
+      "country": "Iran",
+      "pricePerDay": 70,
+      "coords": [27.03789, 54.11579],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/lifestyle-home-suite-bedroom-interior_1203-4134.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 66,
+      "name": "Hotel66",
+      "country": "Iran",
+      "pricePerDay": 126,
+      "coords": [33.885563, 51.498027],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/interior-building_1048944-7026907.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 67,
+      "name": "Hotel67",
+      "country": "Iran",
+      "pricePerDay": 137,
+      "coords": [38.01181, 62.163191],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/regent-hotel-tivat-montenegro-porto-montenegro_278455-6167.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 68,
+      "name": "Hotel68",
+      "country": "Iran",
+      "pricePerDay": 65,
+      "coords": [27.960715, 51.202676],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/scenic-view-sandy-beach-beach-with-sun-beds-umbrellas-open-against-sea-mountains-hotel-resort-tekirova-kemer-turkey_146671-18876.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 69,
+      "name": "Hotel69",
+      "country": "Iran",
+      "pricePerDay": 204,
+      "coords": [31.451557, 54.802623],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/swimming-pool_74190-1977.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 70,
+      "name": "Hotel70",
+      "country": "Iran",
+      "pricePerDay": 186,
+      "coords": [38.970223, 58.601352],
+      "description": "Nestled among Iran's scenic landscapes, our luxury hotel offers an oasis of tranquility. Wake up to breathtaking views, indulge in gourmet local dishes, and experience personalized service. Our resort-style lodging includes spa facilities, a fitness center, and guided tours for curious travelers. A perfect getaway destination.",
+      "image": "https://img.freepik.com/free-photo/umbrellas-hammocks-near-pool_1203-204.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 71,
+      "name": "Hotel71",
+      "country": "Iran",
+      "pricePerDay": 210,
+      "coords": [35.250532, 52.068088],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/premium-photo/building-with-sign-that-says-espresso-it_233859-2536.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 72,
+      "name": "Hotel72",
+      "country": "Iran",
+      "pricePerDay": 79,
+      "coords": [31.036434, 52.468366],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 73,
+      "name": "Hotel73",
+      "country": "Iran",
+      "pricePerDay": 195,
+      "coords": [28.19855, 45.957536],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/businessman-begins-registration-process_482257-85810.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 74,
+      "name": "Hotel74",
+      "country": "Iran",
+      "pricePerDay": 266,
+      "coords": [36.065413, 45.503551],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/woman-hotel-room_23-2148095326.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 75,
+      "name": "Hotel75",
+      "country": "Iran",
+      "pricePerDay": 249,
+      "coords": [32.580635, 47.704656],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/miami-usa-april-15-2021-sidewalk-cafe-carlyle-hotel-ocean-drive-florida_474717-133802.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 76,
+      "name": "Hotel76",
+      "country": "Iran",
+      "pricePerDay": 158,
+      "coords": [30.611003, 49.684566],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/beautiful-view-lasentha-boutique-hotel-hoi-vietnam_265989-19231.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 77,
+      "name": "Hotel77",
+      "country": "Iran",
+      "pricePerDay": 277,
+      "coords": [32.903973, 52.21193],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/view-luxurious-hotel-interior-space_23-2150683457.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 78,
+      "name": "Hotel78",
+      "country": "Iran",
+      "pricePerDay": 261,
+      "coords": [29.489675, 60.996028],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/fivestar-hotel-turkey-against-backdrop-setting-sky_361821-751.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 79,
+      "name": "Hotel79",
+      "country": "Iran",
+      "pricePerDay": 219,
+      "coords": [30.278627, 47.962502],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/grass-luxury-beach-resort-travel_1203-3964.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 80,
+      "name": "Hotel80",
+      "country": "Iran",
+      "pricePerDay": 277,
+      "coords": [28.073933, 60.950889],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/hallway-with-large-sculpture-wall-lamp-left_959938-2436.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 81,
+      "name": "Hotel81",
+      "country": "Iran",
+      "pricePerDay": 65,
+      "coords": [25.467196, 62.493036],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/scenic-view-sandy-beach-beach-with-sun-beds-umbrellas-open-against-sea-mountains-hotel-resort-tekirova-kemer-turkey_146671-18880.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 82,
+      "name": "Hotel82",
+      "country": "Iran",
+      "pricePerDay": 102,
+      "coords": [34.192519, 52.09666],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/amazing-view-dome-luxury-royal-hotel-bodrum-turkey_627829-7208.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 83,
+      "name": "Hotel83",
+      "country": "Iran",
+      "pricePerDay": 266,
+      "coords": [30.641383, 47.709617],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/inner-courtyard-with-swimming-pool_661209-479.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 84,
+      "name": "Hotel84",
+      "country": "Iran",
+      "pricePerDay": 143,
+      "coords": [35.606526, 61.67562],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/hotel-room-with-two-single-beds-with-yellow-blue-cushions-folded-towels_665346-150654.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 85,
+      "name": "Hotel85",
+      "country": "Iran",
+      "pricePerDay": 249,
+      "coords": [37.61826, 60.166292],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/selective-focus-swimming-pool-stair-hotel-with-sunny-reflections_39810-72.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 86,
+      "name": "Hotel86",
+      "country": "Iran",
+      "pricePerDay": 133,
+      "coords": [38.511243, 47.075014],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/outdoor-swimming-pool-hotel-resort_74190-2151.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 87,
+      "name": "Hotel87",
+      "country": "Iran",
+      "pricePerDay": 246,
+      "coords": [28.284598, 48.728821],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/premium-photo/interior-restaurant-luxury-five-stars-hotel_81863-6190.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 88,
+      "name": "Hotel88",
+      "country": "Iran",
+      "pricePerDay": 56,
+      "coords": [29.772579, 57.389382],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/colonial-style-house-night-scene_1150-17925.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 89,
+      "name": "Hotel89",
+      "country": "Iran",
+      "pricePerDay": 249,
+      "coords": [27.373909, 50.870153],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/close-up-bed-with-black-cushion_1203-544.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 90,
+      "name": "Hotel90",
+      "country": "Iran",
+      "pricePerDay": 175,
+      "coords": [25.566906, 55.626339],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/umbrella-chair_74190-3726.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 91,
+      "name": "Hotel91",
+      "country": "Iran",
+      "pricePerDay": 263,
+      "coords": [32.262684, 50.945181],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/premium-photo/several-luxury-loungers-egypt_157927-2202.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 92,
+      "name": "Hotel92",
+      "country": "Iran",
+      "pricePerDay": 244,
+      "coords": [37.7525, 49.332316],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/deck-chairs-with-blue-umbrellas_1203-1027.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 93,
+      "name": "Hotel93",
+      "country": "Iran",
+      "pricePerDay": 259,
+      "coords": [34.136605, 56.638832],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18727.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 94,
+      "name": "Hotel94",
+      "country": "Iran",
+      "pricePerDay": 185,
+      "coords": [38.405192, 62.596891],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/premium-photo/watermark-that-says-name-city_822609-612.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 95,
+      "name": "Hotel95",
+      "country": "Iran",
+      "pricePerDay": 244,
+      "coords": [35.34418, 59.995315],
+      "description": "Our boutique hotel brings the warmth of Iranian hospitality to life with personalized care and unique interiors. Enjoy comfortable rooms styled with Persian motifs and handcrafted details. Guests are welcome to attend cultural workshops, taste local delicacies, and embark on memorable excursions around the area.",
+      "image": "https://img.freepik.com/free-photo/tropical-hotel-holiday-background-resort_1203-4943.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 96,
+      "name": "Hotel96",
+      "country": "Iran",
+      "pricePerDay": 208,
+      "coords": [32.841709, 50.82626],
+      "description": "Welcome to our elegant hotel, offering unparalleled comfort and traditional Iranian hospitality. Located in the heart of the city, we provide easy access to cultural landmarks and vibrant bazaars. Enjoy spacious rooms, exquisite Persian cuisine, and top-tier amenities. Whether for business or leisure, your stay will be unforgettable.",
+      "image": "https://img.freepik.com/free-photo/white-nature-hotel-travel-beautiful_1203-4841.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 97,
+      "name": "Hotel97",
+      "country": "Iran",
+      "pricePerDay": 88,
+      "coords": [27.50078, 60.954311],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 98,
+      "name": "Hotel98",
+      "country": "Iran",
+      "pricePerDay": 151,
+      "coords": [38.031323, 52.964911],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/hotel-room-interior-with-bedroom-area-living-space-kitchen_1262-12288.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 99,
+      "name": "Hotel99",
+      "country": "Iran",
+      "pricePerDay": 272,
+      "coords": [32.951898, 44.012856],
+      "description": "Designed with a blend of modern architecture and classic charm, this hotel is a gem in Iran\u2019s hospitality scene. Each room is equipped with high-speed internet, flat-screen TVs, and comfortable bedding. Guests can enjoy a rooftop restaurant with panoramic views. Discover Iran while enjoying world-class service.",
+      "image": "https://img.freepik.com/free-photo/swimming-pool_74190-2108.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    },
+    {
+      "id": 100,
+      "name": "Hotel100",
+      "country": "Iran",
+      "pricePerDay": 263,
+      "coords": [28.838326, 51.170503],
+      "description": "Experience the vibrant soul of Iran at our culturally inspired hotel. Decorated with handwoven carpets and local artwork, the ambiance reflects the region\u2019s rich heritage. Relax in our serene garden courtyard, dine on traditional meals, and take part in community-hosted events. Ideal for explorers and culture enthusiasts.",
+      "image": "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-bedroom-int_1203-2348.jpg?ga=GA1.1.955044268.1749284383&semt=ais_items_boosted&w=740"
+    }
+  ]
+}

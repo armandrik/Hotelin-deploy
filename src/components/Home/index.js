@@ -1,3 +1,5 @@
 export * from './FavoriteCard'
 export * from './Home'
 export * from './HomeCardHotel'
+export * from './HeaderSection'
+export * from './SearchInput'

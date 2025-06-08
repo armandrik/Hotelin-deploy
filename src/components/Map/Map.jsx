@@ -3,9 +3,30 @@ import nmp_mapboxgl from "@neshan-maps-platform/mapbox-gl";
 import { useTheme } from "src/context/ThemeContext";
 import "@neshan-maps-platform/mapbox-gl/dist/NeshanMapboxGl.css";
 import { createLottieMarker } from "./CustomMarker";
-import { HomeCardHotel } from "src/components";
+import { HomeCardHotel, HotelSkeleton } from "src/components";
+import { useQuery } from "@tanstack/react-query";
+import { fetchHotels } from "src/api";
 
 export const Map = () => {
+  const { data: hotels, isLoading } = useQuery({
+    queryFn: () => fetchHotels(),
+    queryKey: ["hotels"],
+    staleTime: 1000 * 60 * 60 * 4,
+    gcTime: 1000 * 60 * 60 * 4,
+    initialData: () => {
+      // Try to read from localStorage cache first
+      const cached = localStorage.getItem("hotels-cache");
+      return cached ? JSON.parse(cached) : undefined;
+    },
+    onSuccess: (data) => {
+      // Save fresh data to localStorage cache
+      localStorage.setItem("hotels-cache", JSON.stringify(data));
+    },
+    onError: (error) => {
+      console.error("Failed fetching hotels:", error);
+    },
+  });
+
   const { theme } = useTheme();
 
   const mapSetter = (neshanMap) => {
@@ -39,7 +60,7 @@ export const Map = () => {
         mapSetter={mapSetter}
       />
       <div className="w-[95%] mx-auto bg-white shadow-md rounded-md absolute top-2 left-0 right-0 px-2 pt-2 dark:bg-secondary-dark">
-        <HomeCardHotel />
+        {isLoading ? <HotelSkeleton /> : <HomeCardHotel data={hotels[0]} />}
       </div>
     </div>
   );
